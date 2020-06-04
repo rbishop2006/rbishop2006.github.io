@@ -5,7 +5,7 @@ $center-margin: 0px auto;
   grid-template-columns: 1fr 1fr 1fr;
   margin: $center-margin;
   max-width: 800px;
-  max-height: 150px;
+  min-height: 60vh;
   overflow-y: scroll;
   border-radius: 3px;
 
@@ -28,6 +28,11 @@ $center-margin: 0px auto;
 
     span {
       margin-top: 5px;
+      font-size: 0.85em;
     }
   }
+}
+#spacer {
+  height: 100px;
+  width: 100%;
 }

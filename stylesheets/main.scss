@@ -32,6 +32,7 @@ body {
   @include parallax-background("../assets/desktop1.jpg");
   display: grid;
   justify-items: center;
+  height: $parallax-height;
 
   img {
     width: 50px;
@@ -43,7 +44,6 @@ body {
 #top,
 #bottom {
   width: 100%;
-  height: $parallax-height;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
@@ -77,6 +77,18 @@ body {
   @include parallax-background("../assets/desktop2.jpg");
   display: grid;
   justify-content: center;
+  height: $parallax-height;
+
+  #projectsHeader {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.06em;
+    font-size: 35px;
+    color: #4f8a8b;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: 500;
+  }
 
   p {
     width: 400px;
@@ -90,6 +102,14 @@ body {
     font-weight: 500;
     margin-top: 50px;
   }
+
+  #secondDownArrow {
+    justify-self: center;
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+  }
+
   img#scroll {
     margin: $center-margin;
   }
