@@ -1,0 +1,30 @@
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px auto;
+  max-width: 800px;
+  max-height: 150px;
+  overflow-y: scroll;
+  border-radius: 3px;
+}
+#projects img {
+  border-radius: 3px;
+  border: 3px solid transparent;
+}
+#projects img:hover {
+  border-radius: 3px;
+  border: 3px solid #4f8a8b;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#projects a {
+  display: grid;
+  justify-items: center;
+  text-decoration: none;
+  color: #4f8a8b;
+}
+#projects a span {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=projects.css.map */

@@ -1,0 +1,33 @@
+$center-margin: 0px auto;
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: $center-margin;
+  max-width: 800px;
+  max-height: 150px;
+  overflow-y: scroll;
+  border-radius: 3px;
+
+  img {
+    border-radius: 3px;
+    border: 3px solid transparent;
+  }
+  img:hover {
+    border-radius: 3px;
+    border: 3px solid #4f8a8b;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+
+  a {
+    display: grid;
+    justify-items: center;
+    text-decoration: none;
+    color: #4f8a8b;
+
+    span {
+      margin-top: 5px;
+    }
+  }
+}
