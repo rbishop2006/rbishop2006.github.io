@@ -1,0 +1,26 @@
+$center-margin: 0px auto;
+
+#middle {
+  display: flex;
+  align-items: center;
+  #bioPic {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px #4f8a8b);
+    width: 15%;
+    height: 15%;
+    margin: 5%;
+  }
+  p {
+    width: 70%;
+    padding: 5%;
+    margin: $center-margin;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.4;
+    color: #4f8a8b;
+    text-align: justify;
+    font-weight: 500;
+  }
+}
