@@ -1,0 +1,164 @@
+/* Header */
+
+#main-header {
+  background: url("../assets/desktop1.jpg") no-repeat 80% 4% / cover;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* Projects */
+
+#projects h2,
+#projects p {
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Capstone Project */
+
+#capstone-project h2 {
+  text-transform: none;
+}
+
+#capstone-project h3 {
+  color: var(--dark-green);
+}
+
+#capstone-project h3 span.lowercase {
+  text-transform: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+#capstone-project h3 span,
+#capstone-project p span,
+#capstone-project .capstone-project-btns a span {
+  font-family: cursive;
+  text-transform: none;
+}
+
+#capstone-project #capstone-project-img {
+  height: 500px;
+  width: 100%;
+  background: url("../assets/jurnease-background.png") no-repeat center
+    center/cover;
+  background-size: 815px;
+}
+
+#capstone-project h3 {
+  margin: 1rem 0;
+  color: var(--light-green);
+}
+
+#capstone-project .capstone-project-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#capstone-project .capstone-project-btns a {
+  width: 300px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Midsize Projects */
+
+#midsize-projects {
+  margin-top: 3rem;
+}
+
+#midsize-projects #midsize-projects-imgs {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#midsize-projects #midsize-projects-imgs ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#midsize-projects #midsize-projects-imgs ul li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#midsize-projects #midsize-projects-imgs ul li div.btn {
+  width: 65%;
+  justify-self: center;
+}
+
+#midsize-projects div h3 {
+  font-size: 1.5rem;
+  color: var(--light-green);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#midsize-projects-imgs ul li#edgeledger-site a img,
+#midsize-projects-imgs ul li#hotel-site a img,
+#midsize-projects-imgs ul li#memory-site a img,
+#midsize-projects-imgs ul li#newsgrid-site a img,
+#midsize-projects-imgs ul li#react-shopping-cart-site a img,
+#midsize-projects-imgs ul li#etsy-site a img {
+  border-radius: 50%;
+  border: 3px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+#midsize-projects-imgs ul li#edgeledger-site a img:hover,
+#midsize-projects-imgs ul li#hotel-site a img:hover,
+#midsize-projects-imgs ul li#memory-site a img:hover,
+#midsize-projects-imgs ul li#newsgrid-site a img:hover,
+#midsize-projects-imgs ul li#react-shopping-cart-site a img:hover,
+#midsize-projects-imgs ul li#etsy-site a img:hover {
+  opacity: 0.9;
+  border: 3px solid var(--orange);
+}
+
+/* Mini Projects */
+
+#mini-projects {
+  margin-top: 3rem;
+}
+
+#mini-projects #mini-projects-imgs {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#mini-projects #mini-projects-imgs ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem;
+}
+#mini-projects #mini-projects-imgs ul li {
+  background: var(--light-green);
+  padding: 1.5rem;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#mini-projects #mini-projects-imgs ul li:hover {
+  background: var(--orange);
+}
+
+#mini-projects #mini-projects-imgs ul li a {
+  color: var(--light-gray);
+}

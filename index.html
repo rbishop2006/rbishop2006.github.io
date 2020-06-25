@@ -3,170 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Robert Bishop</title>
-    <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/navBar.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/middle.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/projects.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/footer.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <title>Robert Bishop | Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/cb34552f69.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div id="placeholder"></div>
-    <div id="navBar">
-      <ul>
-        <li>
-          <a href="https://github.com/rbishop2006" target="_blank"
-            ><img src="assets/github.svg" alt="github"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/robert-bishop-3837b61/"
-            target="_blank"
-            ><img src="assets/linkedin.svg" alt="linkedIn"
-          /></a>
-        </li>
-        <li>
-          <a href="assets/resume.pdf" target="_blank">
-            <img src="assets/resume.svg" alt="resume"
-          /></a>
-        </li>
-        <li>
-          <a href="mailto:rbishop2006@gmail.com"
-            ><img src="assets/email.svg" alt="contact"
-          /></a>
-        </li>
-      </ul>
-    </div>
-    <div id="top">
-      <h1>Robert Bishop</h1>
-      <h3>Jr Full Stack<br />Web Developer</h3>
-      <img src="assets/downArrow.svg" alt="down arrow" />
-    </div>
-
-    <div id="middle">
-      <img id="bioPic" src="assets/bioPic.png" alt="bioPic" />
-      <p class="personalStatement">
-        I am an enthusiastic, self-disciplined and motivated worker. I have
-        demonstrated an ability to work on teams and with management, as well as
-        learn new skills and work remotely. My experience at PunchCode has
-        opened a world of excitement and opportunity and I am enjoying making
-        consistent progress towards my goal of becoming a more seasoned
-        developer.
-      </p>
-    </div>
-    <div id="bottom">
-      <img id="secondDownArrow" src="assets/downArrow.svg" alt="down arrow" />
-      <br />
-      <span id="projectsHeader">Projects</span>
-      <p>
-        During my time at PunchCode, I worked on several projects that
-        progressed in size and complexity. Here are just a few of the projects
-        that I worked on during the course including a video bio, presentation
-        and walkthrough of my final capstone project Jurn(ease).
-        <br /><br />I am currently working on new projects and will continue to
-        add them to this page.
-      </p>
-      <br />
-      <img id="scroll" src="assets/downArrow.svg" alt="down arrow" />
-      <br />
-
-      <div id="projects">
-        <a
-          href="http://robertbishopdev.com/Create-Etsy-Search-Page/"
-          target="_blank"
-          ><span>Etsy Look-alike / JS-JQuery</span
-          ><img
-            src="assets/etsyCreate.png"
-            width="200"
-            height="150"
-            alt="Etsy Look-alike"
-        /></a>
-        <a href="https://youtu.be/pT18Us8sayw" target="_blank"
-          ><span>2 min Jurn(ease) Presentation</span
-          ><img
-            src="assets/jurn(ease)Presentation.png"
-            width="200"
-            height="150"
-            alt="Jurn(ease) Presentation"
-        /></a>
-        <a href="https://demoday.punchcode.org/project/1" target="_blank"
-          ><span>Jurn(ease) Capstone / React</span
-          ><img
-            src="assets/jurn(ease).png"
-            width="200"
-            height="150"
-            alt="Jurn(ease) Demo walkthrough video"
-        /></a>
-        <a href="http://robertbishopdev.com/Memory/" target="_blank"
-          ><span>Memory / JS-JQuery</span
-          ><img
-            id="memory"
-            src="assets/memory.png"
-            width="200"
-            height="150"
-            alt="Memory"
-        /></a>
-        <a
-          href="https://github.com/rbishop2006/react-photo-albums"
-          target="_blank"
-          ><span>Photo Album-repo / React</span
-          ><img
-            src="assets/photoAlbum.png"
-            width="200"
-            height="150"
-            alt="Photo album"
-        /></a>
-        <a
-          href="http://robertbishopdev.com/react-shopping-cart/"
-          target="_blank"
-          ><span>Shopping Cart-repo / React</span
-          ><img
-            src="assets/shoppingCart.png"
-            width="200"
-            height="150"
-            alt="Shopping Cart"
-        /></a>
-
-        <a href="https://youtu.be/dUDo47D2mQ8" target="_blank"
-          ><span>Bio Video</span
-          ><img
-            src="assets/bioVid.png"
-            width="200"
-            height="150"
-            alt="Bio Video"
-        /></a>
+    <!-- Header -->
+    <header id="home-main-header">
+      <div id="main-header-nav">
+        <div id="monogram">
+          <a href="index.html"><h1>RB</h1></a>
+        </div>
+        <div id="nav">
+          <ul>
+            <li class="current"><a href="#">home</a></li>
+            <li class="not-selected"><a href="#about-me">about</a></li>
+            <li class="not-selected"><a href="projects.html">projects</a></li>
+            <li class="not-selected"><a href="resume.html">resume</a></li>
+            <li class="not-selected"><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div id="spacer"></div>
+      <div id="header-statement">
+        <h1>
+          I am Robert Bishop,
+          <span
+            class="txt-type"
+            data-wait="2500"
+            data-words='["Web Developer"]'
+          ></span>
+        </h1>
+        <p>I develop responsive design websites using modern frameworks.</p>
+        <a href="projects.html" class="btn">View My Projects</a>
+      </div>
+    </header>
+
+    <!-- About Me -->
+
+    <div class="wrapper">
+      <section id="about-me">
+        <h2>About Me</h2>
+        <div class="small-line"></div>
+
+        <div class="pic-statement">
+          <div>
+            <img src="assets/bioPic.png" alt="bioPic" />
+          </div>
+          <div>
+            <p class="personalStatement">
+              I am an enthusiastic, self-disciplined and motivated worker. I
+              have demonstrated an ability to work on teams and with management,
+              as well as learn new skills and work remotely. My experience at
+              PunchCode opened a world of excitement and opportunity and I am
+              enjoying making consistent progress towards my goal of becoming a
+              more seasoned developer.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <div id="footer">
+    <!-- Boxes -->
+
+    <div class="boxes">
       <ul>
-        <li>
-          <a href="https://github.com/rbishop2006" target="_blank"
-            ><img src="assets/github.svg" alt="github"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/robert-bishop-3837b61/"
-            target="_blank"
-            ><img src="assets/linkedin.svg" alt="linkedIn"
-          /></a>
-        </li>
-        <li>
-          <a href="assets/resume.pdf" target="_blank">
-            <img src="assets/resume.svg" alt="resume"
-          /></a>
-        </li>
-        <li>
-          <a href="mailto:rbishop2006@gmail.com"
-            ><img src="assets/email.svg" alt="contact" /><span
-              >rbishop2006@gmail.com</span
-            ></a
+        <li class="boxes-a">
+          <i class="fas fa-graduation-cap fa-3x"
+            ><h4>Passion for Learning</h4></i
           >
         </li>
+        <li class="boxes-b">
+          <i class="fas fa-clipboard-check fa-3x"
+            ><h4>Motivated Self -starter</h4></i
+          >
+        </li>
+        <li class="boxes-a">
+          <i class="fas fa-laptop-house fa-3x"
+            ><h4>Remote work experience</h4></i
+          >
+        </li>
+        <li class="boxes-b">
+          <i class="fas fa-thumbs-up fa-3x"><h4>looking for opportunity</h4></i>
+        </li>
       </ul>
     </div>
+
+    <!-- Specializations -->
+
+    <div class="wrapper">
+      <section id="specialize">
+        <div class="specialize-info">
+          <h2>I specialize in</h2>
+          <div class="small-line"></div>
+          <p>
+            Responsive websites using these technologies.
+          </p>
+        </div>
+        <div class="specialize-icons">
+          <ul>
+            <li id="html5"></li>
+            <li id="css3"></li>
+            <li id="javascript"></li>
+            <li id="jquery"></li>
+            <li id="react"></li>
+            <li id="redux"></li>
+            <li id="nodejs"></li>
+            <li id="express"></li>
+            <li id="mysql"></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="main-footer">
+      <div id="main-footer-items">
+        <div class="footer-main-name">
+          <h5>Robert Bishop | Web Developer</h5>
+        </div>
+        <div class="footer-main-social">
+          <ul>
+            <li>
+              <a href="https://github.com/rbishop2006" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/robert-bishop-3837b61/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:rbishop2006@gmail.com"
+                ><i class="fas fa-envelope-open-text"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Typewriter Effect -->
+
+    <script src="js/typewriter.js"></script>
   </body>
 </html>

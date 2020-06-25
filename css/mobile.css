@@ -1,0 +1,183 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Home Page */
+  .wrapper {
+    max-width: 375px;
+  }
+
+  /* Header */
+
+  #home-main-header {
+    background: url("../assets/desktop1.jpg") no-repeat 62% 40% / cover;
+    background-size: 1900px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+  }
+
+  #main-header-nav {
+    max-width: 375px;
+    padding: 1rem;
+  }
+
+  #nav ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Header Statement */
+
+  #header-statement h1 {
+    color: var(--dark-green);
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+  }
+
+  #header-statement h1 span.txt-type {
+    display: block;
+  }
+
+  #header-statement p {
+    font-size: 1rem;
+  }
+
+  /* About Me */
+
+  #about-me .pic-statement {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /* Boxes */
+
+  .boxes ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 600px;
+  }
+
+  /* Specilizations */
+
+  .specialize-icons ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr;
+    grid-gap: 1rem;
+  }
+
+  /* Footer */
+
+  .footer-main-social ul {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-footer-items {
+    max-width: 375px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto 0;
+    padding: 1rem;
+  }
+
+  /* Projects */
+
+  #main-header {
+    background: url("../assets/desktop1.jpg") no-repeat 67% 77% / cover;
+    background-size: 1900px;
+  }
+
+  #capstone-project,
+  #midsize-projects,
+  #mini-projects {
+    text-align: center;
+  }
+
+  #capstone-project #capstone-project-img {
+    height: 300px;
+    background-size: 370px;
+  }
+
+  #capstone-project p {
+    padding: 1rem;
+  }
+
+  #capstone-project .capstone-project-btns {
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  #midsize-projects #midsize-projects-imgs ul {
+    grid-template-columns: 1fr;
+  }
+
+  #mini-projects #mini-projects-imgs ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+
+  /* Resume */
+
+  #resume-header .pic-statement {
+    grid-template-columns: 1fr;
+  }
+
+  #resume-header,
+  #education h2,
+  #employment-history,
+  #tech-experience h2,
+  section#capstone {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #employment-history div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #employment-history div ul li.dates,
+  #employment-history div ul li.locations {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .tech-experience-icons ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr;
+    grid-gap: 1rem;
+  }
+  #capstone div.capstone-btns {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  /* Contact */
+
+  #contact-bg .wrapper #contact-icons {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    max-width: 375px;
+  }
+  #contact-bg {
+    height: 90vh;
+  }
+  #main-footer {
+    position: relative;
+  }
+}

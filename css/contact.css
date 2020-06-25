@@ -1,0 +1,77 @@
+/* Header */
+
+#main-header {
+  background: url("../assets/desktop1.jpg") no-repeat 80% 4% / cover;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* Contact */
+
+#contact-bg {
+  height: 74vh;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact-bg .wrapper {
+  display: grid;
+  grid-template-rows: 20% 1fr;
+}
+
+#contact-bg .wrapper div h2 {
+  margin: 2rem;
+}
+
+#contact-bg .wrapper #contact-icons {
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1100px;
+}
+
+#contact-bg .wrapper #contact-icons li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-bg .wrapper #contact-icons li .fas {
+  background-color: var(--dark-green);
+  padding: 2rem;
+  border-radius: 50%;
+  color: var(--light-green);
+  margin: 1rem 0;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+#contact-bg .wrapper #contact-icons li .fas:hover {
+  border: 1px solid var(--light-gray);
+  color: var(--light-gray);
+}
+
+/* Footer */
+
+#main-footer {
+  background: var(--dark-green);
+  color: var(--light-gray);
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#main-footer-items {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-main-name h5 {
+  font-size: 1.1rem;
+}

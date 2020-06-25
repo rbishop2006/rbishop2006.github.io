@@ -1,0 +1,185 @@
+/* Header */
+
+#main-header {
+  background: url("../assets/desktop1.jpg") no-repeat 80% 4% / cover;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* Resume */
+
+/* resume-header */
+
+#resume-header h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#resume-header .pic-statement {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+#resume-header .pic-statement div img {
+  height: 175px;
+  width: 175px;
+}
+#resume-header .pic-statement div h3 {
+  margin: 1rem 0;
+}
+
+/* Education */
+
+#education {
+  margin-top: 3rem;
+}
+
+#education div ul {
+  display: flex;
+  align-items: center;
+}
+
+#education div ul li {
+  display: flex;
+  align-items: center;
+}
+
+#education div ul li#punchcode-logo {
+  background: url("../assets/punchcode-logo.png") no-repeat center center/cover;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+#education div ul li#vcu-logo {
+  background: url("../assets/VCU-logo.png") no-repeat center center/cover;
+  width: 75px;
+  height: 75px;
+  background-size: 104px;
+  margin: 1rem;
+}
+
+/* Employment History */
+
+#employment-history {
+  margin-top: 3rem;
+}
+
+#employment-history div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#employment-history div ul li span.positions {
+  color: var(--light-green);
+}
+
+#employment-history div ul li h4.employers {
+  color: var(--dark-green);
+}
+
+#employment-history div ul li.dates,
+#employment-history div ul li.locations {
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+#employment-history p {
+  margin: 1rem 0;
+}
+
+/* Tech-Experience */
+
+#tech-experience {
+  margin-top: 3rem;
+}
+
+.tech-experience-icons ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.tech-experience-icons ul li#html5-2 {
+  background: url("../assets/html5.png") no-repeat center center/cover;
+  background-size: 63px;
+  width: 50px;
+  height: 50px;
+}
+.tech-experience-icons ul li#css3-2 {
+  background: url("../assets/css3.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.tech-experience-icons ul li#javascript-2 {
+  background: url("../assets/javascript.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.tech-experience-icons ul li#jquery-2 {
+  background: url("../assets/jquery.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.tech-experience-icons ul li#react-2 {
+  background: url("../assets/react.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+  background-size: 55px;
+}
+.tech-experience-icons ul li#redux-2 {
+  background: url("../assets/redux.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+  background-size: 48px;
+}
+.tech-experience-icons ul li#nodejs-2 {
+  background: url("../assets/nodejs.jpeg") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.tech-experience-icons ul li#express-2 {
+  background: url("../assets/express.png") no-repeat center center/cover;
+  width: 82px;
+  height: 50px;
+  background-size: 79px;
+}
+.tech-experience-icons ul li#mysql-2 {
+  background: url("../assets/mysql.png") no-repeat center center/cover;
+  width: 77px;
+  height: 50px;
+  background-size: 82px;
+}
+
+/* Capstone */
+
+#capstone {
+  margin-top: 3rem;
+}
+
+#capstone h2 {
+  text-transform: none;
+}
+
+#capstone span {
+  font-family: cursive;
+  text-transform: lowercase;
+}
+
+#capstone div a {
+  margin: 1rem 0;
+  width: 180px;
+  text-align: center;
+}
+
+#capstone div.capstone-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
