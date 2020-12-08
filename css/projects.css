@@ -35,6 +35,12 @@
   text-transform: none;
 }
 
+#capstone-project #capstone-project-img-truLocal {
+  height: 500px;
+  width: 100%;
+  background: url("../assets/truLocalImg.png") no-repeat center center/cover;
+  background-size: 650px;
+}
 #capstone-project #capstone-project-img {
   height: 500px;
   width: 100%;

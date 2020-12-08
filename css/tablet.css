@@ -33,6 +33,10 @@
 
   /* Projects */
 
+  #capstone-project #capstone-project-img-truLocal {
+    height: 400px;
+    background-size: 500px;
+  }
   #capstone-project #capstone-project-img {
     height: 400px;
     background-size: 650px;
