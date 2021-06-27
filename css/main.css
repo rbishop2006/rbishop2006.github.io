@@ -147,6 +147,9 @@ img {
 #header-statement p {
   font-size: 1.2rem;
 }
+#header-statement a {
+  min-width: 150px;
+}
 
 /* About Me */
 
@@ -223,8 +226,8 @@ img {
 
 .specialize-icons ul {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
   margin-top: 3rem;
   justify-items: center;
   align-items: center;
@@ -246,10 +249,32 @@ img {
   width: 50px;
   height: 50px;
 }
-.specialize-icons ul li#jquery {
-  background: url("../assets/jquery.png") no-repeat center center/cover;
+.specialize-icons ul li#typescript {
+  background: url("../assets/typescript.png") no-repeat center center/cover;
   width: 50px;
   height: 50px;
+  border-radius: 50%;
+}
+.specialize-icons ul li#sass {
+  background: url("../assets/sass.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.specialize-icons ul li#antdesign {
+  background: url("../assets/antdesign.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.specialize-icons ul li#materialui {
+  background: url("../assets/materialui.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
+.specialize-icons ul li#semanticui {
+  background: url("../assets/semanticui.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 .specialize-icons ul li#react {
   background: url("../assets/react.png") no-repeat center center/cover;
@@ -263,6 +288,11 @@ img {
   height: 50px;
   background-size: 48px;
 }
+.specialize-icons ul li#jquery {
+  background: url("../assets/jquery.png") no-repeat center center/cover;
+  width: 50px;
+  height: 50px;
+}
 .specialize-icons ul li#nodejs {
   background: url("../assets/nodejs.jpeg") no-repeat center center/cover;
   width: 50px;
@@ -273,6 +303,12 @@ img {
   width: 82px;
   height: 50px;
   background-size: 79px;
+}
+.specialize-icons ul li#koa {
+  background: url("../assets/koa.png") no-repeat center center/cover;
+  width: 82px;
+  height: 50px;
+  background-size: 50px;
 }
 .specialize-icons ul li#mysql {
   background: url("../assets/mysql.png") no-repeat center center/cover;

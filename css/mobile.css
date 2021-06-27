@@ -68,7 +68,6 @@
 
   .specialize-icons ul {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3fr;
     grid-gap: 1rem;
   }
 
@@ -101,6 +100,16 @@
     text-align: center;
   }
 
+  #capstone-project p,
+  #midsize-projects p,
+  #mini-projects p {
+    text-align: left;
+  }
+
+  #capstone-project #capstone-project-img-healco {
+    height: 300px;
+    background-size: 300px;
+  }
   #capstone-project #capstone-project-img-truLocal {
     height: 300px;
     background-size: 300px;
@@ -144,6 +153,12 @@
     text-align: center;
     padding: 1rem;
   }
+  #resume-header p,
+  #employment-history p,
+  section#capstone p {
+    text-align: left;
+    padding: 1rem;
+  }
 
   #employment-history div {
     display: grid;
@@ -155,12 +170,6 @@
   #employment-history div ul li.locations {
     font-size: 0.85rem;
     text-align: center;
-  }
-
-  .tech-experience-icons ul {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3fr;
-    grid-gap: 1rem;
   }
   #capstone div.capstone-btns {
     display: grid;

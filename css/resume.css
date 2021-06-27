@@ -97,66 +97,6 @@
   margin-top: 3rem;
 }
 
-.tech-experience-icons ul {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: 1fr;
-  margin-top: 3rem;
-  justify-items: center;
-  align-items: center;
-}
-
-.tech-experience-icons ul li#html5-2 {
-  background: url("../assets/html5.png") no-repeat center center/cover;
-  background-size: 63px;
-  width: 50px;
-  height: 50px;
-}
-.tech-experience-icons ul li#css3-2 {
-  background: url("../assets/css3.png") no-repeat center center/cover;
-  width: 50px;
-  height: 50px;
-}
-.tech-experience-icons ul li#javascript-2 {
-  background: url("../assets/javascript.png") no-repeat center center/cover;
-  width: 50px;
-  height: 50px;
-}
-.tech-experience-icons ul li#jquery-2 {
-  background: url("../assets/jquery.png") no-repeat center center/cover;
-  width: 50px;
-  height: 50px;
-}
-.tech-experience-icons ul li#react-2 {
-  background: url("../assets/react.png") no-repeat center center/cover;
-  width: 50px;
-  height: 50px;
-  background-size: 55px;
-}
-.tech-experience-icons ul li#redux-2 {
-  background: url("../assets/redux.png") no-repeat center center/cover;
-  width: 50px;
-  height: 50px;
-  background-size: 48px;
-}
-.tech-experience-icons ul li#nodejs-2 {
-  background: url("../assets/nodejs.jpeg") no-repeat center center/cover;
-  width: 50px;
-  height: 50px;
-}
-.tech-experience-icons ul li#express-2 {
-  background: url("../assets/express.png") no-repeat center center/cover;
-  width: 82px;
-  height: 50px;
-  background-size: 79px;
-}
-.tech-experience-icons ul li#mysql-2 {
-  background: url("../assets/mysql.png") no-repeat center center/cover;
-  width: 77px;
-  height: 50px;
-  background-size: 82px;
-}
-
 /* Capstone */
 
 #capstone {

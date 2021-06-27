@@ -35,6 +35,12 @@
   text-transform: none;
 }
 
+#capstone-project #capstone-project-img-healco {
+  height: 500px;
+  width: 100%;
+  background: url("../assets/healcoImg.svg") no-repeat center center/cover;
+  background-size: 590px;
+}
 #capstone-project #capstone-project-img-truLocal {
   height: 500px;
   width: 100%;

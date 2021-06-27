@@ -23,6 +23,12 @@
     transform: none;
   }
 
+  /* Specilizations */
+  .specialize-icons ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
   #main-footer-items {
     max-width: 700px;
     display: flex;
@@ -33,6 +39,10 @@
 
   /* Projects */
 
+  #capstone-project #capstone-project-img-healco {
+    height: 400px;
+    background-size: 470px;
+  }
   #capstone-project #capstone-project-img-truLocal {
     height: 400px;
     background-size: 500px;

@@ -40,7 +40,7 @@ class TypeWriter {
       typeSpeed = this.wait
       // Set delete to true
       this.isDeleting = true
-    } else if (this.isDeleting && this.txt === "W") {
+    } else if (this.isDeleting && this.txt === "F") {
       this.isDeleting = false
       // Move to next word
       this.wordIndex++
