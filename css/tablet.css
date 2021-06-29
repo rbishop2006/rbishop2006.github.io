@@ -87,4 +87,12 @@
   #contact-bg #contact-icons {
     max-width: 700px;
   }
+
+  #contact-bg .wrapper div h2 {
+    margin-top: 2rem;
+  }
+
+  #main-footer .contact-footer-items {
+    margin-top: 0;
+  }
 }

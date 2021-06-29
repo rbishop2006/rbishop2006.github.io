@@ -1,3 +1,11 @@
+/* Layout Wrapper */
+#layout-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Header */
 
 #main-header {
@@ -8,7 +16,7 @@
 /* Contact */
 
 #contact-bg {
-  height: 75vh;
+  /* min-height: 75vh; */
   display: grid;
   justify-content: center;
   text-align: center;
@@ -17,10 +25,6 @@
 #contact-bg .wrapper {
   display: grid;
   grid-template-rows: 20% 1fr;
-}
-
-#contact-bg .wrapper div h2 {
-  margin: 2rem;
 }
 
 #contact-bg .wrapper #contact-icons {
@@ -70,6 +74,10 @@
   justify-content: space-between;
   align-items: center;
   margin: 3rem auto 0;
+}
+
+#main-footer .contact-footer-items {
+  margin-top: 0;
 }
 
 .footer-main-name h5 {
