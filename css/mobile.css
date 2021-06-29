@@ -52,7 +52,6 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-    text-align: center;
     padding: 1rem;
   }
 
@@ -170,6 +169,10 @@
   #employment-history div ul li.locations {
     font-size: 0.85rem;
     text-align: center;
+  }
+
+  #employment-history .work-history-list-items {
+    text-align: left;
   }
   #capstone div.capstone-btns {
     display: grid;

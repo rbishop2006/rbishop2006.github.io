@@ -169,6 +169,25 @@ img {
 #about-me .pic-statement div img {
   height: 175px;
   width: 175px;
+  border: 1px solid var(--medium-gray);
+  border-radius: 50%;
+}
+
+#about-me .quoted-statement {
+  background: var(--light-gray);
+  display: flex;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--medium-gray);
+}
+
+#about-me .quoted-statement i {
+  color: var(--medium-gray);
+  font-size: 2rem;
+}
+
+#about-me .quoted-statement p {
+  margin-left: 1rem;
 }
 
 /* Boxes */

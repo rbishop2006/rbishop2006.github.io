@@ -30,6 +30,29 @@
   margin: 1rem 0;
 }
 
+#resume-header .quoted-statement {
+  display: flex;
+}
+
+#resume-header .quoted-statement i {
+  color: var(--medium-gray);
+  font-size: 2rem;
+}
+
+#resume-header .quoted-statement p {
+  margin-left: 1rem;
+}
+
+#employment-history .work-history-list-items {
+  list-style-type: disc;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+#employment-history .work-history-list-items li {
+  margin-bottom: 2rem;
+}
+
 /* Education */
 
 #education {
